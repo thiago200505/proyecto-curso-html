@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimarket T & M</title>
+    <link rel="shortcut icon" href="carrito.ico" </head>
+
+
+    <head>
+
+
+
+        <style>
+            body {
+                font-family: "Lucida Console", "Courier New", monospace;
+                background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+                padding: 0;
+                margin: 0;
+            }
+
+            .container {
+                display: flex;
+                justify-content: center;
+            }
+
+            header {
+                text-align: center;
+            }
+
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+            }
+
+            li {
+                float: left;
+            }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover:not(.active) {
+                background-color: #111;
+            }
+
+            .active {
+                background-color: #92a4ff;
+            }
+
+            h1 {
+                background-color: black;
+                padding: 10px;
+                margin: 0;
+                color: #92a4ff;
+            }
+
+            table {
+                border-collapse: collapse;
+                border: 2px solid rgb(200, 200, 200);
+                letter-spacing: 1px;
+                font-size: 1.5rem;
+                background-color: #FFF;
+            }
+
+            td {
+                border: 1px solid rgb(190, 190, 190);
+                padding: 10px 20px;
+            }
+
+            th {
+                border: 1px solid rgb(190, 190, 190);
+                padding: 10px 20px;
+                background-color: rgb(162, 162, 162);
+            }
+
+            .footer {
+                background-color: #333;
+                color: #FFF;
+                padding: 10px;
+                text-align: center;
+                clear: both;
+            }
+        </style>
+
+
+    </head>
+
+
+
+<body>
+    <h1>Minimarket T & M</h1>
+    <header>
+        <nav>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="precios.html">Precios</a></li>
+                <li><a href="audiovisuales.html">Audiovisuales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <h2 style="margin: 15px;">
+        Productos
+    </h2>
+    <hr>
+
+
+    <div class="container">
+        <table>
+            <colgroup>
+                <col style="background-color: rgb(207, 207, 207);">
+                <col>
+                <col>
+                <col>
+                <col>
+            </colgroup>
+            <th>&NonBreakingSpace;</th>
+            <th>Productos:</th>
+            <th>Precios:</th>
+
+
+            <tr>
+                <td>Lacteos</td>
+                <td>Yogurt Biotop 1L
+                    <hr>
+                    Lactolate 1L
+                    <hr>
+                    Leche 1L
+                </td>
+                <td>$ 98
+                    <hr>
+                    $ 68
+                    <hr>
+                    $ 43
+                </td>
+            </tr>
+            <tr>
+                <td>Fiambres</td>
+                <td>Jamón shneck
+                    <hr>
+                    Queso Sandwich conaprole
+                    <hr>
+                    Salame Doña Coca
+                </td>
+                <td>$ 68
+                    <hr>
+                    $ 55
+                    <hr>
+                    $ 49
+                </td>
+            </tr>
+            <tr>
+                <td>Legumbres</td>
+                <td>Lentejas 300g
+                    <hr>
+                    Porotos 250g
+                    <hr>
+                    Grbanzos 250g
+                </td>
+                <td>$ 65
+                    <hr>
+                    $ 59
+                    <hr>
+                    $ 62
+
+
+
+                </td>
+            </tr>
+            <tr>
+                <td>Snacks</td>
+                <td>Papas lay's de tubo 127g
+                    <hr>
+                    Doritos 150g
+                    <hr>
+                    Chetos 150g
+                </td>
+                <td>$ 228
+                    <hr>
+                    $ 219
+                    <hr>
+                    $ 213
+
+                </td>
+            </tr>
+            <tr>
+                <td>Bebidas</td>
+                <td>Agua salus 2.25L
+                    <hr>
+                    Agua nativa 2.25L
+                    <hr>
+                    Agua Vitale 2.25L
+                </td>
+                <td>$ 125
+                    <hr>
+                    $ 135
+                    <hr>
+                    $ 115
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <footer class="footer">
+
+        <p>
+            Derechos reservados &copy; 2024
+        </p>
+    </footer>
+
+
+
+
+</body>
+
+</html>
